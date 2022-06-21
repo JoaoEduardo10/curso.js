@@ -1,0 +1,194 @@
+HTML:
+h1 -> diz que é um titulo de novel  1 -> h1 /h1
+p -> é um paragrafo -> p /p
+
+
+css:
+style -> tege de estilo -> style  ( body ) /style
+background color
+
+javascript:
+COMANDOS:
+ window.alert('')
+window.confirm('')
+window.prompt()
+document.write() <- escreve no documento
+console.log()
+new data() -> para saber as horas da maquina
+variavel + gethours
+
+TIPOS DE VARIAVEIS:
+null -> seguinifica nada, nulo
+typeof " TIPO DE: " -> var-> tambem pode ser usada a palavra LET(number : infinity,nan.),(string),(booleando -> true ou false)
+(null),(undefined),(object: array ),(function)
++ -> serve para adição e conctenação
+
+COMVERÇÃO:
+para converte de string para number é: Number.parselnt(n) <- inteiro, Number.parsefloat(n) <- real, ou usar so Number(n).
+para converte Number oara string é: string(N) ou n.string()
+
+
+formata string:
+
+().length <- diz quantas letras tem a string
+toUpperCase() <- spara jogar a string para letras maiusculas
+toLowerCase() <- para deixar minuscula
+
+formata number: 
+
+().tofixed(numero de casas decimais)
+n1.toLocaleString('pt-br',{style: 'currency',currency: 'brl}) <- para comverter em moeda local
+n1.replace <- para colocar a virgula
+
+OPERADORES:
+
+Aritiméticos:
++ <- adição
+- <- sulbitração
+* <- multiplicação
+/ <- divição
+% <- resto da divição inteira
+** <- ao quadrado
+
+ordem de precendencia dos operadores Aritimeticos:
+()
+**
+*/%
++- 
+os rekacionais nao tem ordem de precendencia
+!
+&&
+||
+
+Atribuição:
+
+
+
+atribuições simples:
+var a = 5 + 3 -> 8
+var b = a % 5 -> 3
+var c = 5 * b ** 2 -> 45
+var d = 10 * a / 2 -> 6
+var e =  6 * 2 / d -> 2
+var f = b % e + 4 / -> 3
+
+auto atribuição:
+
+var n = 3
+
+n = n + 4 = 7 /ou/ n += 4 -> 7 se ele receber ele mesmo
+
+incremento:
+
+/se for por 1 fica n++ ou n-- por ai vai/
+ 
+Relacionais:
+5	>	2 -> true
+7	<	4 -> false
+8	>=	8 -> true
+9	<=	7 -> false
+5	==	5 -> true / caso um seja uma string recebe === ex: 5 === "5" -> false.
+4	!=	4 -> false / operador de não igual
+
+Lógicos:
+
+! -> negação /corresponde ao (o que nao e true e false)
+&& -> conjução /correspode ao (e)
+|| -> disjunção /corresponde ao (ou)
+
+Ternário: (?, :)
+
+ teste'?'true':'false
+
+ex;
+
+var média = 5,5
+
+media > 7?'aprovado : 'reprovado
+média igual a reprovado
+
+obs: ":" <- correspobde ao (senao)
+
+
+DOM do javascript
+DOM -> Document Object Model
+
+Selecimamdo;
+
+por Marca -> getElementsByTagName()
+por ID -> getElementBayID() e repreemtado por (#)
+por nome -> getElemenByName()
+por classe ->getElementByClassName() e representado por um (.)
+por seletor -> querySelector()
+		queySelectorAll()
+
+para escrever -e -> innerText ou innerHtml
+
+
+funcio :
+
+onclick -
+addEventListener -> para inicia a função
+click
+mouseenter -> para entra
+mouseout -> sair
+
+CONDIÇÕES:
+
+if(condiçao){
+	TRUE
+}else{
+	FALSE
+}
+
+CONDIÇÕES MULTIPLAS:
+estrutura (escolha)
+ switch(expressão){
+
+	CASE 1:
+
+	break
+
+	CASE 2:
+
+	break
+
+	defaut:
+
+}
+
+
+ESTRUTURAS DE REPETIÇÕES:
+estrutura enquanto con texte logico no inicio
+while(condição){
+   /       /
+}
+estrutura enquanto con texte logico no final 
+do{
+ /    /
+
+}while(condição){
+
+}
+
+
+estrutura de repetição com variavel de cintrole:
+ estrura(para)
+for(inicio; teste; incr){
+
+}
+
+
+
+} while (condição)
+
+
+
+VARIAVEIS COMPOSTAS:
+
+var a = [ 5 , 8  , 4]
+
+para adicionar um elemento por fora é: num[posiçao(elemento)] =(indici) valor que vpçe que adicionar ou / num.push(7)
+num.length
+num.sort()
+num.indexOf() <- para buscar valores 

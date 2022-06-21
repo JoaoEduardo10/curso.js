@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            body{
+                background-color: hwb(0 17% 82%);
+                font: normal 20pt arial;
+                color: white;
+            }
+        </style>
+</head>
+<body>
+    <h1>iniciando estudos com dom</h1>
+    <p>A que vai o resultado</p>
+    <P>Aprendendo a usar <strong> DOM </strong>em javascript</P>
+    <div id= "msg"> clicic em mim</div>
+    <div class="mss"> outro clic  </div>
+    <div class="mm">novo eu</div>
+    <div id="nn">velho eu</div>
+    <script>
+       var p2 = window.document.getElementsByTagName('h1')[0]
+       var d1 = window. document.querySelector('div#msg')
+       var d2 =  window.document.querySelector('div.mss')
+       var d3 = window.document.querySelector('div#nn')
+       var d4 = window.document.querySelector('div.mm')
+       p2.style.background = 'red'
+       d1.style.background = 'green'
+       d2.style.background = 'blue'
+       d3.style.background = 'yellow'
+       d4.style.background = 'gold'
+        p2.innerHTML = 'ola'
+        d1.innerHTML = 'se faz'
+        d2.innerHTML = "ainda estiu aorendendo"
+
+    
+    
+
+    </script>
+</body>
+</html>
