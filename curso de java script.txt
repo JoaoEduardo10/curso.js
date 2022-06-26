@@ -49,7 +49,10 @@ formata metodos:
 - length numero total de alguma variavel
 - sort() arruma a ordem de apresentaçao de uma arrey do menor ao maior
 - indexOf() <- para buscar valores 
-
+- startsWith('Bom'); compara a primeira palavra e diz se é true ou false.
+- endsWith('Bom');compara a ultima palavra e diz se e true ou false
+- trim(); tira os espaços exedentes.
+- primeira arrey.concat(segunda arrey "a que vai a arre que voçe quer juntar") -> serve para ta as arrey
 --------------------------------------------------------------------------------------------------------------------------
 OBJTOS:
 {} -> para abre um objeto
@@ -240,6 +243,28 @@ try {
 }catch(e) {
 
 }
+
+----------------------------------------------------------------------------------------------------------------------------
+PARA CLONAR UM OBJETO;
+1- voçe pode usar o Object.assign({}, a que vai o nome do objeto)
+2- {...mais o nome do objeto}
+para mostra objs;
+- .find para que mostre o arrey que dentro dele tem um objeto
+
+---------------------------------------------------------------------------------------------------------------------------
+ Math;
+
+descição: Math é um objeto embutido que tem propriedades e 
+métodos para constantes e funções matemáticas. Não é um objeto de função.
+
+- Math.random() -> ele pega um numero aleatorio entre 0 e 1.
+- Math.round(x) -> retorna o valor arrendondado de X.
+- Math.sign(x) -> retorna o sinal de X e diz se e positivo ou negativo
+(se for negatico retorna -1, caso seja positivo retorna 1).
+- Math.max(9,8,6,0) -> ele diz qual é o maior numero.
+- Math.min(9,8,6,0) -> ele diz qual é o menor numero.
+- Math.pow(x,y) -> eleva o X no tanto de vezes Y
+
 
 
 
