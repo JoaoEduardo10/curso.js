@@ -1,11 +1,4 @@
-HTML:
-h1 -> diz que é um titulo de novel  1 -> h1 /h1
-p -> é um paragrafo -> p /p
 
-
-css:
-style -> tege de estilo -> style  ( body ) /style
-background color
 
 javascript:
 COMANDOS:
@@ -17,29 +10,53 @@ console.log()
 new data() -> para saber as horas da maquina
 variavel + gethours
 
+
+--------------------------------------------------------------------------------------------------------------------------
 TIPOS DE VARIAVEIS:
 null -> seguinifica nada, nulo
 typeof " TIPO DE: " -> var-> tambem pode ser usada a palavra LET(number : infinity,nan.),(string),(booleando -> true ou false)
 (null),(undefined),(object: array ),(function)
 + -> serve para adição e conctenação
-
+--------------------------------------------------------------------------------------------------------------------------
 COMVERÇÃO:
 para converte de string para number é: Number.parselnt(n) <- inteiro, Number.parsefloat(n) <- real, ou usar so Number(n).
 para converte Number oara string é: string(N) ou n.string()
 
-
+=========================================================================================================================
 formata string:
 
 ().length <- diz quantas letras tem a string
 toUpperCase() <- spara jogar a string para letras maiusculas
 toLowerCase() <- para deixar minuscula
+---------------------------------------------------------------------------------------------------------------------------
+formata metodos: 
 
-formata number: 
+- tofixed(numero de casas decimais)
+- replace ("o que voçe quer trocar" , "o que voçe vai trocar")
+- n1.toLocaleString('pt-br',{style: 'currency',currency: 'brl}) <- para comverter em moeda local
+- includes("digite o que voce que ver se tem ou não") verifica se tem a deterinada palavra ou determinado numero
+- split('adiciona espaços e tira a letra ou palavra que voçe b=adicionar a que')
+ transfoma cada parte de um texto em uma array
+- join("para adiionar alguma coisa entre os espaços") ADICIONA ALGO  ENTRE OS ESPAÇOS
+- arrey.from('variavel que vai transforma em cadeia de cacteres") TRANFORMA O CONREUDO DA VARIAVEL
+ COMUN EM CADEIA DE CACTERES ARREY
+- push(7) para adicio um valor no final da variavel
+- unshift() adiciona o valor no começo da variavel
+- pop() remove o item do final da arrey
+- shift() remove o do comeco
+- slice("bota da onde que comecar a remover"" onde quer para de remover") remove elemento de arreys
+- splice('onde que comecar a tira''coneca a tirar') remove um ou mais itens na arrey
+- length numero total de alguma variavel
+- sort() arruma a ordem de apresentaçao de uma arrey do menor ao maior
+- indexOf() <- para buscar valores 
 
-().tofixed(numero de casas decimais)
-n1.toLocaleString('pt-br',{style: 'currency',currency: 'brl}) <- para comverter em moeda local
-n1.replace <- para colocar a virgula
+--------------------------------------------------------------------------------------------------------------------------
+OBJTOS:
+{} -> para abre um objeto
+this.alguma coisa -e usado para quando tiver uma função objeto
 
+
+-------------------------------------------------------------------------------------------------------------------------
 OPERADORES:
 
 Aritiméticos:
@@ -109,30 +126,54 @@ média igual a reprovado
 
 obs: ":" <- correspobde ao (senao)
 
-
+--------------------------------------------------------------------------------------------------------------------------
 DOM do javascript
 DOM -> Document Object Model
 
 Selecimamdo;
 
-por Marca -> getElementsByTagName()
-por ID -> getElementBayID() e repreemtado por (#)
-por nome -> getElemenByName()
-por classe ->getElementByClassName() e representado por um (.)
-por seletor -> querySelector()
-		queySelectorAll()
+- por Marca -> getElementsByTagName()
+- por ID -> getElementBayID() e repreemtado por (#)
+- por nome -> getElemenByName()
+- por classe ->getElementByClassName() e representado por um (.)
+- por seletor -> querySelector(),queySelectorAll()
+- para escrever -e -> innerText ou innerHtml
+- tem tabem o TextContent.
+- setAttribute(); serve para cria e pegar o atributo ex ID CLass
+- removeAttribute(); serve para remover atributos 
+- classList; Serve para adiciona classe de estilos no css tendo as subtegs .add("vem nome da class)
+.remove() Serve para remover, .toggle() se a class existir ele remove se nao ele adiciona
+- parentNode / parentNode; para saber quem é o parecnte de cima
+- childNodes / childNodes o melhor; serve para ver quaç e as tegs filhos
+- firstChild / firstElementChild; pega a primeira teg filho
+- lastElementChild / lastChild; para pegar a ultma teg filho.
+- nextSibling / nextElementSibling / previousElementSibling; pega a ultima tegs teg irmao
+- createElement; para criar um elemeto html (teg)
+- prepend(); para adicionar elementos (tegs) depois
+- append(); para adiciona elementos(tegs) depois.
+- insertBefore(div, script) para adicionar em um elemento em um determinado lugar, vc primeiro bota o que que adicionar
+depois bota abaixo de quem quer adixionar o elemento
 
-para escrever -e -> innerText ou innerHtml
 
 
-funcio :
+---------------------------------------------------------------------------------------------------------------------------
+EVENTOS :
 
-onclick -
-addEventListener -> para inicia a função
-click
-mouseenter -> para entra
-mouseout -> sair
 
+- addEventListener -> para inicia a o evento
+- onclick; um click
+- ondblclick; dois cliks
+- ondrag -> quando arrastar¨
+- onkeydown -> toda vez que tocar no teclado 
+- onkeyup -> toda vez que eu aperta e  souta o eventoo roda se eu segura o evento não roda
+- mouseenter -> para entra 1 vez por entrada
+- mouseout -> sair
+- mousemove -> ele fica executando mesmo depois de esta dentro ate sai(toda vexz que mecher o mouse lel execulta o evento)
+-
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
 CONDIÇÕES:
 
 if(condiçao){
@@ -188,7 +229,17 @@ VARIAVEIS COMPOSTAS:
 
 var a = [ 5 , 8  , 4]
 
-para adicionar um elemento por fora é: num[posiçao(elemento)] =(indici) valor que vpçe que adicionar ou / num.push(7)
-num.length
-num.sort()
-num.indexOf() <- para buscar valores 
+--------------------------------------------------------------------------------------------------------------------------
+CAPTAR MENSAGEM DE ERRO;
+
+- throw -> para achar um erro geralmente usado assim thorw new Erro("mensagem do erro")
+- O try/catch serve para capitura erros depois de colocar o tharow sendo o try para tenta execultar e o 
+catch para capturar o erro 
+try {
+
+}catch(e) {
+
+}
+
+
+
